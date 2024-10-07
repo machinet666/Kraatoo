@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+}
+
+header {
+    background-color: #ce1212;
+    color: #e7e6e6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 30px;
+}
+header h4{
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+nav h2 {
+    
+    margin: 0 50px;
+}
+
+nav a {
+    
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+nav a:hover {
+    color: #f1d96d; /* Change color on hover */
+    
+}

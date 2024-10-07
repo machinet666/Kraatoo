@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+}
+
+header {
+    background-color: #fff;
+    color: #339cff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 30px;
+}
+header h4{
+
+    text-align: left;
+    margin-left: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+nav h2 {
+    
+    margin: 0 100px; /* Space between links */
+}
+
+nav a {
+    
+    color: #339cff; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+nav a:hover {
+    color: #dd1111; /* Change color on hover */
+    
+}

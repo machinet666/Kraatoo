@@ -1,0 +1,13 @@
+fieldset{
+    background-color: #f4f5f5;
+    width: 520px;
+    height: 540px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+fieldset p, form{
+    margin-left: 10px;
+}
+
+
+    
